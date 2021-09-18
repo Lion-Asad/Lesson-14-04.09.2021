@@ -22,6 +22,6 @@ create table Accounts (
 	Created_At datetime not null,
 	Updated_At datetime not null,
 
-	AccountsClientId int references Clients (Id) not null,
-	AccoutnsCurrencyId int references Currencies (Id) not null
+	AccountsClient_Id int references Clients (Id) not null,
+	AccoutnsCurrency_Id int references Currencies (Id) not null
 );
